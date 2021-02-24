@@ -1,5 +1,5 @@
 // Set API Key
-const apiKey = 'c23ed042808905b52e93cff8dd46f94e';
+const apiKey = 'Set API Key here';
 
 const cityInput = document.querySelector('#city-input');
 const submitInput = document.querySelector('#weather-button');
