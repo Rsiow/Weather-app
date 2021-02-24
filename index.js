@@ -38,6 +38,6 @@ submitInput.addEventListener('click', async () => {
     const description = data.weather[0].description;
 
     const cardHtml = createCardHtml(name, temp, feelsLike, description);
-
+    // Place data-filled template into main HTML for display
     weatherOutput.innerHTML = cardHtml;
 });
