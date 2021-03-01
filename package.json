@@ -1,0 +1,25 @@
+{
+  "name": "jwd-weather-app",
+  "version": "1.0.0",
+  "description": "#Input the city of your choice in the text box and it will fetch you the current temperature, what it feels like and weather conditions.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "dev": "node -r dotenv/config ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rsiow/Weather-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rsiow/Weather-app/issues"
+  },
+  "homepage": "https://github.com/Rsiow/Weather-app#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "parcel-bundler": "^1.12.4"
+  }
+}
